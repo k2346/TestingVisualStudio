@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace demo05
+namespace PersonApplication
 {
     /// <summary>
     /// This class holds person objects in a collection        // tämä kommentointitapa on ns. virallinen 

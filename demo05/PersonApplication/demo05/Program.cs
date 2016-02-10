@@ -19,7 +19,7 @@ namespace PersonApplication
             person1.Lastname = "Mainio";
             person1.SocialSecurityNum = "231- 225";
 
-            Person person2 = new Person { Firstname = "Kirsi", Lastname = "Kernel", SosialSecurityNum = "123 - 4856" };
+            Person person2 = new Person { Firstname = "Kirsi", Lastname = "Kernel", SocialSecurityNum = "123 - 4856" };
 
             // add person to the collection
             myFriends.AddPerson(person1);
@@ -39,7 +39,7 @@ namespace PersonApplication
             string sotu = "123 - 4856";
             Console.WriteLine("Finding person with sotu..");
             Person person4 = myFriends.FindPerson(sotu);
-            if (Person != null) ;
+            if (person4 != null)
             {
                 Console.WriteLine(person4.ToString());
             } else
